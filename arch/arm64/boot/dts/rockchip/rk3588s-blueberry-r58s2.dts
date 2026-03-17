@@ -14,6 +14,8 @@
 #include "rk3588-linux.dtsi"
 
 / {
+	/delete-node/ chosen;
+
 	model = "Mekotronics R58S2";
 	compatible = "mekotronics,r58s2", "rockchip,rk3588s";
 
